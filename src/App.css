@@ -2,7 +2,7 @@
 
 .outerDiv {
   background-image: url(./assets/jason-leung-Xaanw0s0pMk-unsplash.jpg);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,12 +14,12 @@
 .innerDiv {
   margin: 1%;
   padding: 1%;
-  height: 90%;
+  min-height: 90%;
   width: 80%;
   background-color: white;
   opacity: 0.8;
   border-radius: 10px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 h1 {
